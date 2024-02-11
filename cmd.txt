@@ -1,0 +1,19 @@
+# set up a virtual environment
+python3 -m venv capstone_venv
+
+# activate the virtual environment
+source capstone_venv/bin/activate
+
+# install requirements.txt
+pip install -r requirements.txt
+
+# sequential install tracking
+pip install ipykernel
+pip install --upgrade pip
+pip install pandas
+pip install openpyxl
+pip install numpy 
+pip install matplotlib
+pip install seaborn
+pip install -U scikit-learn
+pip install geocoder
